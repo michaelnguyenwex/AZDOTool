@@ -3,7 +3,12 @@
 This tool is used to update Azure DevOps test cases with automated test details.
 
 ## Usage
+1. You can immediately run the tool from the command line with the following syntax without opening Visual Studio:
+```bash
+Deploy\AZDOTool.exe --testCaseId <id> --automatedTestName <name> --automatedTestStorage <storage> --organization <org> --project <project> --pat <token>
+```
 
+2. If you wanted to make changes, you could open the project file in Visual Studio and modify the code as needed. After making changes, you can rebuild the project to create a new executable.
 
 ## Parameters
 
